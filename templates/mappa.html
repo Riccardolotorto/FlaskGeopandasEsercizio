@@ -1,0 +1,12 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mappa</title>
+    </head>
+    <body>
+        <p>Ecco il quartiere che hai scelto: {{nome}}</p>
+        <img src="{{url_for('immagine', q= nome)}}"><br>   <!--la variabile nome contiene la variabile quartiere dell'altro file html e la salva nella variabile q-->
+    </body>
+</html>
